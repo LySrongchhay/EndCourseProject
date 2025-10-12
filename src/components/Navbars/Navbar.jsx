@@ -8,7 +8,7 @@ const Navbar = () => {
   const currentPath = location.pathname;
 
   return (
-    <div className="w-full px-[100px] py-4 shadow-md bg-white flex items-center justify-between">
+    <div className="w-full px-[100px] py-4 sticky top-0 bg-white p-4 shadow z-50 flex items-center justify-between sticky">
       {/* Left: Logo and Brand */}
       <div className="flex items-center space-x-2">
         <img src={logo} alt="Logo" className="h-8 w-8 object-contain" />
